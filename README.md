@@ -53,11 +53,10 @@ matplotlib
 seaborn
 
 To install them:
-
-bash
-Copy
-Edit
 pip install pandas matplotlib seaborn
+
+Or
+pip install -r requirements.txt
 
 df.describe()
 |      | Sales | Profit |
@@ -67,7 +66,6 @@ df.describe()
 | Min  | 350   | 40     |
 
 
-pip install -r requirements.txt
 
 📜 License
 This project is licensed under the MIT License.
